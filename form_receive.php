@@ -5,20 +5,43 @@
   <title>フォームからデータを受け取る</title>
 </head>
 <body>
-  <form>
-  <div>
-    <action = “form.php” method = “get”>
+  <form action = "form.php" method = "post">
+    <table>
+      <tr>
+        <td>名前</td>
+        <td><input type = "text" name = "name"></td>
+        <!-- <td colspan = "2" align = "center">
+          <input type = "submit" value = "入力">
+        </td> -->
+      </tr>
+      <tr>
+        <td>
+          コメント
+        </td>
+        <td height = "100"><input type = "text" name = "comment" size = "100"></td>
+        <!-- <td colspan = "2" align = "center">
+          <input type = "submit" value = "入力">
+        </td> -->
+    </table>
+    <div class="button">
+      <button type="submit">Send your message</button>
+    </div>
+  </form>
+</body>
+</html>
+
+
+    <!-- <action = "form.php" method = "post">
     <input type = "text" name ="comment">
+    <action = "form.php" method = "get>"
   </div>
+  <form>
+    <div>
+      <action = "form.php" method = "post">
+        <input
   <div class="button">
     <button type="submit">Send your message</button>
   </div>
   </form>
 </body>
-</html>
-
-<?php
-$comment = $_GET["comment"];
-echo $comment;
-file_put_contents("received_text.txt","$comment"."\n",FILE_APPEND);
-?>
+</html> -->
