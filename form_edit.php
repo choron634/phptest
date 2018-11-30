@@ -68,7 +68,7 @@ if($flag == 1):
         <input type="text" name="edit_comment" value="<?php echo $edit_comment ?>" size="100">
       </div>
     </dev>
-      <input type="submit" name="btn_confirm" value="入力内容を確認する">
+      <input type="submit" name="btn_confirm" value="送信">
     </form>
 <?php else: ?>
   <html lang="ja">
