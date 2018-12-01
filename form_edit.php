@@ -67,6 +67,10 @@ if($flag == 1):
         <label>コメント</label>
         <input type="text" name="edit_comment" value="<?php echo $edit_comment ?>" size="100">
       </div>
+      <div class="element_wrap">
+        <label>パスワード</label>
+        <input type="text" name="edit_password" value="">
+      </div>
     </dev>
       <input type="submit" name="btn_confirm" value="送信">
     </form>
