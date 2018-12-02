@@ -59,7 +59,7 @@
       <th>ID</th><th>お名前</th><th>コメント</th><th>投稿日時</th>
       <?php
       $filename="received_text.txt";
-      //ファイルを配列に格納し、さらに変数に格納する
+      
       $lines=file($filename);
       //変数を出力する
       for($i = 0; $i < count($lines); $i++){

@@ -13,7 +13,7 @@ $id = $_GET['id'];
 
 
 $mode = 0;//0:first post 1:edit mode
-$password_correct = 0;//if password is correct 1
+$password_correct = 0;//if password is correct: 1
 
 if($edit_name != ""){
   $mode = 1;
