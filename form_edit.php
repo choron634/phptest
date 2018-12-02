@@ -30,7 +30,7 @@
 </head>
 
 <?php
-    //各当の投稿があるかを確認するflag
+    //各当する投稿があるかを確認するflag
     $flag = 0;
     $edit_name = "";
     $edit_comment = "";
